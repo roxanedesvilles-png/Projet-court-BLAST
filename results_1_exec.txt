@@ -1,0 +1,397 @@
+Pour une exécution de mini blast : 
+
+Query length = 120, match=5, mismatch=-4, X=12
+Query : GAATCTGCTCTATAAAAGCTGGATACAAATATACGTTCAGGCGCGGGTTGAAGCGTCTAACAACCTGGTGCTTCACAGACGACCTAAGACCCCGCCAAGATATCGCGACGACTCTATTAC
+
+--- Test k=6, V=20 ---
+Seq1 : #HSPs=5, MSP score=39 | k-mer=CTGGAT | Query[9:24] vs Seq[121:136]
+  HSPs détaillés :
+    CTGGAT | score=39 | Q[9:24] vs Seq[121:136]
+    ATATAC | score=30 | Q[28:34] vs Seq[142:148]
+    GCGTCT | score=31 | Q[50:58] vs Seq[100:108]
+    TAACAA | score=39 | Q[48:63] vs Seq[109:124]
+    CGACGA | score=30 | Q[105:111] vs Seq[163:169]
+Seq2 : #HSPs=10, MSP score=40 | k-mer=CTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    CTGCTC | score=31 | Q[2:10] vs Seq[167:175]
+    TGCTCT | score=36 | Q[2:11] vs Seq[167:176]
+    GTCTAA | score=30 | Q[54:60] vs Seq[135:141]
+    CTAACA | score=30 | Q[56:62] vs Seq[118:124]
+    TAACAA | score=35 | Q[56:63] vs Seq[118:125]
+    ACAGAC | score=30 | Q[74:80] vs Seq[56:62]
+    ACCTAA | score=30 | Q[81:87] vs Seq[26:32]
+    CCTAAG | score=35 | Q[81:88] vs Seq[26:33]
+    CTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+    GACCCC | score=37 | Q[82:93] vs Seq[35:46]
+Seq3 : #HSPs=5, MSP score=35 | k-mer=GTGCTT | Query[66:73] vs Seq[62:69]
+  HSPs détaillés :
+    ATATAC | score=31 | Q[26:34] vs Seq[120:128]
+    CAGGCG | score=31 | Q[35:43] vs Seq[10:18]
+    GGTGCT | score=30 | Q[66:72] vs Seq[62:68]
+    GTGCTT | score=35 | Q[66:73] vs Seq[62:69]
+    AGATAT | score=30 | Q[97:103] vs Seq[120:126]
+Seq4 : #HSPs=11, MSP score=50 | k-mer=CTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    CTCTAT | score=30 | Q[7:13] vs Seq[66:72]
+    AAAAGC | score=30 | Q[13:19] vs Seq[158:164]
+    AAAGCT | score=35 | Q[13:20] vs Seq[158:165]
+    AAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    AAATAT | score=30 | Q[26:32] vs Seq[54:60]
+    CCTAAG | score=30 | Q[82:88] vs Seq[166:172]
+    GACTCT | score=38 | Q[109:119] vs Seq[64:74]
+    ACTCTA | score=38 | Q[109:119] vs Seq[64:74]
+    CTCTAT | score=30 | Q[7:13] vs Seq[66:72]
+    TCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    CTATTA | score=50 | Q[109:119] vs Seq[64:74]
+Seq5 : #HSPs=5, MSP score=36 | k-mer=CGTTCA | Query[30:39] vs Seq[135:144]
+  HSPs détaillés :
+    GATACA | score=30 | Q[21:27] vs Seq[83:89]
+    CGTTCA | score=36 | Q[30:39] vs Seq[135:144]
+    GTTCAG | score=30 | Q[34:40] vs Seq[71:77]
+    AAGCGT | score=32 | Q[46:56] vs Seq[17:27]
+    CCAAGA | score=30 | Q[94:100] vs Seq[119:125]
+
+--- Test k=6, V=25 ---
+Seq1 : #HSPs=5, MSP score=39 | k-mer=CTGGAT | Query[9:24] vs Seq[121:136]
+  HSPs détaillés :
+    CTGGAT | score=39 | Q[9:24] vs Seq[121:136]
+    ATATAC | score=30 | Q[28:34] vs Seq[142:148]
+    GCGTCT | score=31 | Q[50:58] vs Seq[100:108]
+    TAACAA | score=39 | Q[48:63] vs Seq[109:124]
+    CGACGA | score=30 | Q[105:111] vs Seq[163:169]
+Seq2 : #HSPs=10, MSP score=40 | k-mer=CTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    CTGCTC | score=31 | Q[2:10] vs Seq[167:175]
+    TGCTCT | score=36 | Q[2:11] vs Seq[167:176]
+    GTCTAA | score=30 | Q[54:60] vs Seq[135:141]
+    CTAACA | score=30 | Q[56:62] vs Seq[118:124]
+    TAACAA | score=35 | Q[56:63] vs Seq[118:125]
+    ACAGAC | score=30 | Q[74:80] vs Seq[56:62]
+    ACCTAA | score=30 | Q[81:87] vs Seq[26:32]
+    CCTAAG | score=35 | Q[81:88] vs Seq[26:33]
+    CTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+    GACCCC | score=37 | Q[82:93] vs Seq[35:46]
+Seq3 : #HSPs=5, MSP score=35 | k-mer=GTGCTT | Query[66:73] vs Seq[62:69]
+  HSPs détaillés :
+    ATATAC | score=31 | Q[26:34] vs Seq[120:128]
+    CAGGCG | score=31 | Q[35:43] vs Seq[10:18]
+    GGTGCT | score=30 | Q[66:72] vs Seq[62:68]
+    GTGCTT | score=35 | Q[66:73] vs Seq[62:69]
+    AGATAT | score=30 | Q[97:103] vs Seq[120:126]
+Seq4 : #HSPs=11, MSP score=50 | k-mer=CTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    CTCTAT | score=30 | Q[7:13] vs Seq[66:72]
+    AAAAGC | score=30 | Q[13:19] vs Seq[158:164]
+    AAAGCT | score=35 | Q[13:20] vs Seq[158:165]
+    AAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    AAATAT | score=30 | Q[26:32] vs Seq[54:60]
+    CCTAAG | score=30 | Q[82:88] vs Seq[166:172]
+    GACTCT | score=38 | Q[109:119] vs Seq[64:74]
+    ACTCTA | score=38 | Q[109:119] vs Seq[64:74]
+    CTCTAT | score=30 | Q[7:13] vs Seq[66:72]
+    TCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    CTATTA | score=50 | Q[109:119] vs Seq[64:74]
+Seq5 : #HSPs=5, MSP score=36 | k-mer=CGTTCA | Query[30:39] vs Seq[135:144]
+  HSPs détaillés :
+    GATACA | score=30 | Q[21:27] vs Seq[83:89]
+    CGTTCA | score=36 | Q[30:39] vs Seq[135:144]
+    GTTCAG | score=30 | Q[34:40] vs Seq[71:77]
+    AAGCGT | score=32 | Q[46:56] vs Seq[17:27]
+    CCAAGA | score=30 | Q[94:100] vs Seq[119:125]
+
+--- Test k=6, V=30 ---
+Seq1 : #HSPs=5, MSP score=39 | k-mer=CTGGAT | Query[9:24] vs Seq[121:136]
+  HSPs détaillés :
+    CTGGAT | score=39 | Q[9:24] vs Seq[121:136]
+    ATATAC | score=30 | Q[28:34] vs Seq[142:148]
+    GCGTCT | score=31 | Q[50:58] vs Seq[100:108]
+    TAACAA | score=39 | Q[48:63] vs Seq[109:124]
+    CGACGA | score=30 | Q[105:111] vs Seq[163:169]
+Seq2 : #HSPs=10, MSP score=40 | k-mer=CTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    CTGCTC | score=31 | Q[2:10] vs Seq[167:175]
+    TGCTCT | score=36 | Q[2:11] vs Seq[167:176]
+    GTCTAA | score=30 | Q[54:60] vs Seq[135:141]
+    CTAACA | score=30 | Q[56:62] vs Seq[118:124]
+    TAACAA | score=35 | Q[56:63] vs Seq[118:125]
+    ACAGAC | score=30 | Q[74:80] vs Seq[56:62]
+    ACCTAA | score=30 | Q[81:87] vs Seq[26:32]
+    CCTAAG | score=35 | Q[81:88] vs Seq[26:33]
+    CTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+    GACCCC | score=37 | Q[82:93] vs Seq[35:46]
+Seq3 : #HSPs=5, MSP score=35 | k-mer=GTGCTT | Query[66:73] vs Seq[62:69]
+  HSPs détaillés :
+    ATATAC | score=31 | Q[26:34] vs Seq[120:128]
+    CAGGCG | score=31 | Q[35:43] vs Seq[10:18]
+    GGTGCT | score=30 | Q[66:72] vs Seq[62:68]
+    GTGCTT | score=35 | Q[66:73] vs Seq[62:69]
+    AGATAT | score=30 | Q[97:103] vs Seq[120:126]
+Seq4 : #HSPs=11, MSP score=50 | k-mer=CTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    CTCTAT | score=30 | Q[7:13] vs Seq[66:72]
+    AAAAGC | score=30 | Q[13:19] vs Seq[158:164]
+    AAAGCT | score=35 | Q[13:20] vs Seq[158:165]
+    AAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    AAATAT | score=30 | Q[26:32] vs Seq[54:60]
+    CCTAAG | score=30 | Q[82:88] vs Seq[166:172]
+    GACTCT | score=38 | Q[109:119] vs Seq[64:74]
+    ACTCTA | score=38 | Q[109:119] vs Seq[64:74]
+    CTCTAT | score=30 | Q[7:13] vs Seq[66:72]
+    TCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    CTATTA | score=50 | Q[109:119] vs Seq[64:74]
+Seq5 : #HSPs=5, MSP score=36 | k-mer=CGTTCA | Query[30:39] vs Seq[135:144]
+  HSPs détaillés :
+    GATACA | score=30 | Q[21:27] vs Seq[83:89]
+    CGTTCA | score=36 | Q[30:39] vs Seq[135:144]
+    GTTCAG | score=30 | Q[34:40] vs Seq[71:77]
+    AAGCGT | score=32 | Q[46:56] vs Seq[17:27]
+    CCAAGA | score=30 | Q[94:100] vs Seq[119:125]
+
+--- Test k=6, V=35 ---
+Seq1 : #HSPs=2, MSP score=39 | k-mer=CTGGAT | Query[9:24] vs Seq[121:136]
+  HSPs détaillés :
+    CTGGAT | score=39 | Q[9:24] vs Seq[121:136]
+    TAACAA | score=39 | Q[48:63] vs Seq[109:124]
+Seq2 : #HSPs=5, MSP score=40 | k-mer=CTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    TGCTCT | score=36 | Q[2:11] vs Seq[167:176]
+    TAACAA | score=35 | Q[56:63] vs Seq[118:125]
+    CCTAAG | score=35 | Q[81:88] vs Seq[26:33]
+    CTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+    GACCCC | score=37 | Q[82:93] vs Seq[35:46]
+Seq3 : #HSPs=1, MSP score=35 | k-mer=GTGCTT | Query[66:73] vs Seq[62:69]
+  HSPs détaillés :
+    GTGCTT | score=35 | Q[66:73] vs Seq[62:69]
+Seq4 : #HSPs=6, MSP score=50 | k-mer=CTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAGCT | score=35 | Q[13:20] vs Seq[158:165]
+    AAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    GACTCT | score=38 | Q[109:119] vs Seq[64:74]
+    ACTCTA | score=38 | Q[109:119] vs Seq[64:74]
+    TCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    CTATTA | score=50 | Q[109:119] vs Seq[64:74]
+Seq5 : #HSPs=1, MSP score=36 | k-mer=CGTTCA | Query[30:39] vs Seq[135:144]
+  HSPs détaillés :
+    CGTTCA | score=36 | Q[30:39] vs Seq[135:144]
+
+--- Test k=6, V=40 ---
+Seq2 : #HSPs=1, MSP score=40 | k-mer=CTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    CTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq4 : #HSPs=3, MSP score=50 | k-mer=CTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    TCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    CTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=7, V=20 ---
+Seq2 : #HSPs=4, MSP score=40 | k-mer=CCTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    CTGCTCT | score=36 | Q[2:11] vs Seq[167:176]
+    CTAACAA | score=35 | Q[56:63] vs Seq[118:125]
+    ACCTAAG | score=35 | Q[81:88] vs Seq[26:33]
+    CCTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq3 : #HSPs=1, MSP score=35 | k-mer=GGTGCTT | Query[66:73] vs Seq[62:69]
+  HSPs détaillés :
+    GGTGCTT | score=35 | Q[66:73] vs Seq[62:69]
+Seq4 : #HSPs=6, MSP score=50 | k-mer=TCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAAGCT | score=35 | Q[13:20] vs Seq[158:165]
+    AAAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    GACTCTA | score=38 | Q[109:119] vs Seq[64:74]
+    ACTCTAT | score=40 | Q[109:117] vs Seq[64:72]
+    CTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    TCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=7, V=25 ---
+Seq2 : #HSPs=4, MSP score=40 | k-mer=CCTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    CTGCTCT | score=36 | Q[2:11] vs Seq[167:176]
+    CTAACAA | score=35 | Q[56:63] vs Seq[118:125]
+    ACCTAAG | score=35 | Q[81:88] vs Seq[26:33]
+    CCTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq3 : #HSPs=1, MSP score=35 | k-mer=GGTGCTT | Query[66:73] vs Seq[62:69]
+  HSPs détaillés :
+    GGTGCTT | score=35 | Q[66:73] vs Seq[62:69]
+Seq4 : #HSPs=6, MSP score=50 | k-mer=TCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAAGCT | score=35 | Q[13:20] vs Seq[158:165]
+    AAAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    GACTCTA | score=38 | Q[109:119] vs Seq[64:74]
+    ACTCTAT | score=40 | Q[109:117] vs Seq[64:72]
+    CTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    TCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=7, V=30 ---
+Seq2 : #HSPs=4, MSP score=40 | k-mer=CCTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    CTGCTCT | score=36 | Q[2:11] vs Seq[167:176]
+    CTAACAA | score=35 | Q[56:63] vs Seq[118:125]
+    ACCTAAG | score=35 | Q[81:88] vs Seq[26:33]
+    CCTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq3 : #HSPs=1, MSP score=35 | k-mer=GGTGCTT | Query[66:73] vs Seq[62:69]
+  HSPs détaillés :
+    GGTGCTT | score=35 | Q[66:73] vs Seq[62:69]
+Seq4 : #HSPs=6, MSP score=50 | k-mer=TCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAAGCT | score=35 | Q[13:20] vs Seq[158:165]
+    AAAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    GACTCTA | score=38 | Q[109:119] vs Seq[64:74]
+    ACTCTAT | score=40 | Q[109:117] vs Seq[64:72]
+    CTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    TCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=7, V=35 ---
+Seq2 : #HSPs=4, MSP score=40 | k-mer=CCTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    CTGCTCT | score=36 | Q[2:11] vs Seq[167:176]
+    CTAACAA | score=35 | Q[56:63] vs Seq[118:125]
+    ACCTAAG | score=35 | Q[81:88] vs Seq[26:33]
+    CCTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq3 : #HSPs=1, MSP score=35 | k-mer=GGTGCTT | Query[66:73] vs Seq[62:69]
+  HSPs détaillés :
+    GGTGCTT | score=35 | Q[66:73] vs Seq[62:69]
+Seq4 : #HSPs=6, MSP score=50 | k-mer=TCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAAGCT | score=35 | Q[13:20] vs Seq[158:165]
+    AAAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    GACTCTA | score=38 | Q[109:119] vs Seq[64:74]
+    ACTCTAT | score=40 | Q[109:117] vs Seq[64:72]
+    CTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    TCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=7, V=40 ---
+Seq2 : #HSPs=1, MSP score=40 | k-mer=CCTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    CCTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq4 : #HSPs=4, MSP score=50 | k-mer=TCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    ACTCTAT | score=40 | Q[109:117] vs Seq[64:72]
+    CTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    TCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=8, V=20 ---
+Seq2 : #HSPs=1, MSP score=40 | k-mer=ACCTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    ACCTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq4 : #HSPs=4, MSP score=50 | k-mer=CTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    GACTCTAT | score=40 | Q[109:117] vs Seq[64:72]
+    ACTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    CTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=8, V=25 ---
+Seq2 : #HSPs=1, MSP score=40 | k-mer=ACCTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    ACCTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq4 : #HSPs=4, MSP score=50 | k-mer=CTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    GACTCTAT | score=40 | Q[109:117] vs Seq[64:72]
+    ACTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    CTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=8, V=30 ---
+Seq2 : #HSPs=1, MSP score=40 | k-mer=ACCTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    ACCTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq4 : #HSPs=4, MSP score=50 | k-mer=CTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    GACTCTAT | score=40 | Q[109:117] vs Seq[64:72]
+    ACTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    CTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=8, V=35 ---
+Seq2 : #HSPs=1, MSP score=40 | k-mer=ACCTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    ACCTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq4 : #HSPs=4, MSP score=50 | k-mer=CTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    GACTCTAT | score=40 | Q[109:117] vs Seq[64:72]
+    ACTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    CTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=8, V=40 ---
+Seq2 : #HSPs=1, MSP score=40 | k-mer=ACCTAAGA | Query[81:89] vs Seq[26:34]
+  HSPs détaillés :
+    ACCTAAGA | score=40 | Q[81:89] vs Seq[26:34]
+Seq4 : #HSPs=4, MSP score=50 | k-mer=CTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    AAAAGCTG | score=40 | Q[13:21] vs Seq[158:166]
+    GACTCTAT | score=40 | Q[109:117] vs Seq[64:72]
+    ACTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    CTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=9, V=20 ---
+Seq4 : #HSPs=2, MSP score=50 | k-mer=ACTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    GACTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    ACTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=9, V=25 ---
+Seq4 : #HSPs=2, MSP score=50 | k-mer=ACTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    GACTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    ACTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=9, V=30 ---
+Seq4 : #HSPs=2, MSP score=50 | k-mer=ACTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    GACTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    ACTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=9, V=35 ---
+Seq4 : #HSPs=2, MSP score=50 | k-mer=ACTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    GACTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    ACTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=9, V=40 ---
+Seq4 : #HSPs=2, MSP score=50 | k-mer=ACTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    GACTCTATT | score=45 | Q[109:118] vs Seq[64:73]
+    ACTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=10, V=20 ---
+Seq4 : #HSPs=1, MSP score=50 | k-mer=GACTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    GACTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=10, V=25 ---
+Seq4 : #HSPs=1, MSP score=50 | k-mer=GACTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    GACTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=10, V=30 ---
+Seq4 : #HSPs=1, MSP score=50 | k-mer=GACTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    GACTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=10, V=35 ---
+Seq4 : #HSPs=1, MSP score=50 | k-mer=GACTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    GACTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=10, V=40 ---
+Seq4 : #HSPs=1, MSP score=50 | k-mer=GACTCTATTA | Query[109:119] vs Seq[64:74]
+  HSPs détaillés :
+    GACTCTATTA | score=50 | Q[109:119] vs Seq[64:74]
+
+--- Test k=11, V=20 ---
+Aucun HSP trouvé.
+
+--- Test k=11, V=25 ---
+Aucun HSP trouvé.
+
+--- Test k=11, V=30 ---
+Aucun HSP trouvé.
+
+--- Test k=11, V=35 ---
+Aucun HSP trouvé.
+
+--- Test k=11, V=40 ---
+Aucun HSP trouvé.
