@@ -29,6 +29,8 @@ Sur la branche principale :
 
 - Mini-BLAST.ipynb → ébauche du script principal (notebook)
 
+- article_blast.pdf → la publication originale
+
 
 Sur la branche additionnelle :
 
