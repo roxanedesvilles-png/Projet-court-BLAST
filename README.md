@@ -33,6 +33,8 @@ Sur la branche principale :
 
 - mini_blast_prot_test.py → ébauche de script d'implémentation de BLAST pour les séquences protéiques
 
+NB : ne pas tenir compte de la branche additionnelle
+
 
 ## Utilisation 
 
