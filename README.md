@@ -23,9 +23,7 @@ Sur la branche principale :
 
 - mini_blast_demo_main_script.py → script principal (implémentation de l'algorithme)
 
-- README.md → ce fichier 
-
-- DESVILLES_Roxane_rapport.pdf → description détaillée du projet  
+- README.md → ce fichier   
 
 - Mini-BLAST.ipynb → ébauche du script principal (notebook)
 
