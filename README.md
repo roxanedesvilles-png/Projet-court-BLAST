@@ -77,10 +77,13 @@ Seq1 : #HSPs=3, MSP score=35 | k-mer=ATGCCA | Query[15:28] vs Seq[67:80]
 ### Prérequis
 
 Python ≥ 3.8
+
 Le script ne nécessite aucune dépendance externe.
 
 Optionnel : pour travailler dans un environnement isolé, on peut utiliser uv : 
+
 uv init
+
 uv run python3 mini_blast_demo_main_script.py
 
 
