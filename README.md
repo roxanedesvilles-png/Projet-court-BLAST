@@ -29,10 +29,7 @@ Sur la branche principale :
 
 - article_blast.pdf → la publication originale
 
-
-Sur la branche additionnelle :
-
-- results_1_exec.txt → résultats obtenus après une execution du main script
+- results_example_exec.txt → résultats obtenus après une execution du main script
 
 - mini_blast_prot_test.py → ébauche de script d'implémentation de BLAST pour les séquences protéiques
 
